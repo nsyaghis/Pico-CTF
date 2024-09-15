@@ -24,17 +24,22 @@ This will connect you to the CTF server on port ```62787```
 ### 3. Enter the Password: 
 When prompted, enter the provided password ```password```. after successfully connecting with ssh, here we need to explore skills. well here I use the command ```cat useless``` to display the contents of the useless file.
 
-![alt text](/images/useless1.png)
-<img src="https://github.com/nsyaghis/Pico-CTF/blob/main/images/useless2.png" width="400" height="200" />
+
+
+<p align="center">
+    <img src="https://github.com/nsyaghis/Pico-CTF/blob/main/images/useless2.png" width="400" height="300" />
+</p>
+
 
 ### 4. Explore the Script
 We need to read the script, there are operations such as sum, div, and others. If it doesn't match there is information ‘read the manual’. Well it turns out that this is a clue that directs us to find the flag. 
 
 so we need to run the ```man useless``` to find the flag  
-![alt text](/images/useless2.png)
 
-<img src="https://github.com/nsyaghis/Pico-CTF/blob/main/images/useless1.png" width="400" height="200" />
 
+<p align="center">
+<img src="https://github.com/nsyaghis/Pico-CTF/blob/main/images/useless1.png" width="400" height="300" />
+</P>
 
 
 and finally we found the flag :
