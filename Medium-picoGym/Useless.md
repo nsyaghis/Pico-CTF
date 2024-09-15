@@ -1,6 +1,6 @@
 <h1 align="center">Useless</h1
 
-There's an interesting script in the user's home directory
+There's an interesting script in the user's home directory.
 The work computer is running SSH. We've been given a script which performs some basic calculations, explore the script and find a flag.
 
 | Hostname | Port | Username | Password |
@@ -10,7 +10,7 @@ The work computer is running SSH. We've been given a script which performs some 
 
 ## Set Up SSH Connection
 
- ### 1. Open a Terminal
+### 1. Open a Terminal
  You will use SSH (Secure Shell) to connect to the remote server.
 
 ### 2. Use the Provided SSH Command
@@ -24,11 +24,17 @@ This will connect you to the CTF server on port ```62787```
 ### 3. Enter the Password: 
 When prompted, enter the provided password ```password```. after successfully connecting with ssh, here we need to explore skills. well here I use the command ```cat useless``` to display the contents of the useless file.
 
-![alt text](image-3.png)
+![alt text](/images/useless1.png)
+
 
 ### 4. Explore the Script
+We need to read the script, there are operations such as sum, div, and others. If it doesn't match there is information ‘read the manual’. Well it turns out that this is a clue that directs us to find the flag. 
+
+so we need to run the ```man useless``` to find the flag  
+![alt text](/images/useless2.png)
 
 
+and finally we found the flag :
 ```
 picoCTF{us3l3ss_ch4ll3ng3_3xpl0it3d_5136}
 ```
